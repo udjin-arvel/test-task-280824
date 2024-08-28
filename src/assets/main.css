@@ -1,0 +1,27 @@
+.container {
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.left-part, .right-part {
+    min-width: 33vw;
+}
+
+.left-part__top, .right-part__top {
+    border: solid 1px #447;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.left-part__bottom, .right-part__bottom {
+    border: solid 1px #744;
+    padding: 2rem;
+}
+
+.left-part-item, .right-part-item, .selected-left-part-item {
+    margin: 1rem 0;
+}
